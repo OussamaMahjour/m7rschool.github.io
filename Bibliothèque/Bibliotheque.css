@@ -1,0 +1,321 @@
+
+@import url('https://fonts.cdnfonts.com/css/scada');
+@import url('https://fonts.cdnfonts.com/css/inter');
+*{
+    padding: 0;
+    margin: 0;
+        
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{background-color: #1A1A1A;}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #1A1A1A;
+    border: #464545 2px solid;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #464545;
+    border-radius: 12px;
+}
+/****************************navbar and logo***************************/
+@media (min-width:1545px){
+   
+    .head{
+        width: 98vw;
+    }
+    
+    .center,.container,iframe{
+        width: 70vw;
+        
+    
+
+    }
+   iframe{
+    height: 700px;
+   }
+}
+.head{
+    
+    min-width: 1545px;
+    min-height: 430px;
+    position: absolute;
+    z-index: 0;
+    
+    
+    
+    background-repeat: no-repeat;
+    
+    background: url(../images/253322.jpg);
+    
+    background-size: cover;
+    
+}
+.logo{
+    position: absolute;
+
+left: 2rem;
+top: 3rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+line-height: 2rem;
+
+color: white;
+
+}
+nav{
+    position: absolute;
+width: 50vw;
+height: 2rem;
+left: 30vw;
+top: 3.5rem;
+
+}
+nav ul{
+   display: flex;
+    list-style: none;
+    
+}
+nav ul li{
+    margin:0rem  1.5rem;
+    padding: 0.15rem;
+    padding:0.5%;
+    
+}
+nav ul li:hover{
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.185);
+}
+#connexion{
+    position: absolute;
+width: 7rem;
+height: 1.5rem;
+left: 55vw ;
+background-color: #e7b11a;
+color: BLACK;
+padding: 0.25rem 1rem ;
+border-radius: 20px;
+transition: 0.3s ease;
+}
+#connexion a{
+    color: black;
+    transition: 0.3s ease;
+}
+#connexion:hover{
+    background-color: #00000000;
+    cursor: pointer;
+    
+}
+#connexion:hover #a-con{
+    color: white;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size:1.25rem;
+line-height: 24px;
+}
+/*********************image centrale***********************/
+.main{
+    width: 100%;
+    background-color: #1A1A1A;
+    height: 2841px;
+    
+    
+}
+.center{
+    
+    z-index: 3;
+    position:absolute;
+    min-width: 1100px;
+    min-height:610px;
+    margin-left: 15%;
+   
+   
+    top: 160px;
+    background-position: top;
+    background:  url(../images/giammarco-zeH-ljawHtg-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 1px 10px 29px #000000;
+   
+}
+.center h1{
+position: absolute;
+width: 50%;
+height: 40%;
+
+left: 6rem;
+top: 7rem;
+
+font-family: serif;
+font-size: 4rem;
+font-style: normal;
+font-weight: 400;
+
+line-height: 62px;
+
+color: #FFFFFF;
+}
+.white-shadow{
+    position: absolute;
+    min-width: 1010px;
+    min-height:610px;
+margin-left: 15vw;
+top: 681px;
+
+background: linear-gradient(180deg,rgba(81, 120, 146, 0.53) 0%, rgba(217, 217, 217, 0) 23.6%);
+filter: blur(54px);
+}
+.black-shadow1{
+    position: absolute;
+width: 447px;
+height: 153px;
+margin-left: 10vw;
+top: 636.46px;
+
+background: #000000;
+filter: blur(52px);
+transform: rotate(-17.51deg);
+}
+.black-shadow2{
+    z-index: 0;
+    position: absolute;
+width: 449.16px;
+height: 153px;
+left: 55rem;
+top: 606.46px;
+
+background: #000000;
+filter: blur(52px);
+transform: rotate(17.51deg);
+}
+.container{
+    
+    
+    height: 200px;
+    position: absolute;
+    top: 933px;
+    margin-left: 15vw;
+    
+    padding-left: 4em;
+    height: 4500px;
+    min-width: 1100px;
+    margin-bottom: 20vh;
+}
+.container div{
+    transition: 0.3s ease;
+    margin: 3rem;
+    border-radius: 10px;
+    width: 400px;
+    height:  400px; 
+     display: inline-block;
+     background-color: rgb(83, 82, 82);
+     padding: 0;
+     overflow: hidden; 
+     box-shadow: 1px 10px 29px #000000;
+}
+.container div:hover{
+    margin-top: 0;
+    margin-bottom: 6rem;
+    cursor: pointer;
+}
+.container img{
+    width: 400px;
+    height: 300px;
+    margin: 0;
+}
+.container div div{
+    box-shadow: 1px 10px 29px #00000000;
+    padding-top: 10px;
+    text-align: center;
+    font-family:'Inter';
+    color: white;
+    margin: 0;
+    border-radius: 0;
+    position:absolute;
+    margin: 0;
+    background-color: rgb(83, 82, 82);
+    display: inline-block;
+    height:100px;
+    border-radius: 10px;
+    
+}
+iframe{
+                  
+    min-height: 700px;
+    position: absolute;
+    
+    margin-left: -5vw;
+    border-radius: 10px;
+    
+    border: 3px solid  #e7b11a;
+    min-width: 1100px;
+    
+            }
+
+
+
+
+
+
+
+
+
+footer a{
+    color:white; 
+    text-decoration:none;
+}
+footer{
+    top: 5000px;
+    position: absolute;
+    min-width: 1545px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50%;
+    padding-top: 3%;
+    overflow: hidden;
+}
+#sub{
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    justify-content: space-around;
+    position: absolute;
+   
+    height: 19px;
+    
+    padding-bottom: 4px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+   
+    color: #FFFFFF;}
+#sub li{
+    padding-bottom: 2rem;
+    border-bottom: 1px white dotted;
+}
+#sub li ul{
+    list-style: none;
+    padding-top: 3rem;
+    line-height: 0.25rem;
+}
+#sub li li{
+    border: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.521);
+}
+#sub li li a{
+    color: rgba(255, 255, 255, 0.521);
+}

@@ -21,6 +21,19 @@ body{background-color: #1A1A1A;}
     border-radius: 12px;
 }
 /****************************navbar and logo***************************/
+@media (min-width:1545px){
+   
+    .head{
+        width: 98vw;
+    }
+    
+    .center{
+        width: 70vw;
+       
+    
+
+    }
+}
 .head{
     
     min-width: 1545px;
@@ -96,7 +109,7 @@ transition: 0.3s ease;
 nav ul a{
     color: white;
     text-decoration: none;
-    font-family: 'Inter';
+    font-family:'Inter';
 font-style: normal;
 font-weight: 400;
 font-size:1.25rem;
@@ -108,13 +121,16 @@ line-height: 24px;
     background-color: #1A1A1A;
     height: 2841px;
     
+    
 }
 .center{
+    
     z-index: 3;
     position:absolute;
     min-width: 1100px;
     min-height:610px;
-    margin-left: 15vw;
+    margin-left: 15%;
+   
    
     top: 160px;
     background-position: top;
@@ -140,8 +156,8 @@ color: #FFFFFF;
 }
 .white-shadow{
     position: absolute;
-width: 70vw;
-height: 621px;
+    min-width: 1010px;
+    min-height:610px;
 margin-left: 15vw;
 top: 681px;
 
@@ -164,7 +180,7 @@ transform: rotate(-17.51deg);
     position: absolute;
 width: 449.16px;
 height: 153px;
-left: 57%;
+left: 55rem;
 top: 606.46px;
 
 background: #000000;
@@ -532,7 +548,7 @@ footer a{
 }
 footer{
     position: absolute;
-    width: 100%;
+    min-width: 1545px;
     height: 300px;
     background-color: black;
     margin-top: 50%;
@@ -575,4 +591,3 @@ footer{
     color: rgba(255, 255, 255, 0.521);
 }
 
-}
