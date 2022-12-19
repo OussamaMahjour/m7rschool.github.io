@@ -21,19 +21,7 @@ body{background-color: #1A1A1A;}
     border-radius: 12px;
 }
 /****************************navbar and logo***************************/
-@media (min-width:1545px){
-   
-    .head{
-        width: 98vw;
-    }
-    
-    .center{
-        width: 70vw;
-       
-    
 
-    }
-}
 .head{
     
     min-width: 1545px;
@@ -590,4 +578,19 @@ footer{
 #sub li li a{
     color: rgba(255, 255, 255, 0.521);
 }
+@media (min-width:1545px){
+   
+    .head,footer{
+        width: 100vw;
+    }
+    .black-shadow2{
+        left:67vw;
+    }
+    .center,.white-shadow{
+        width: 70vw;
+       
+    
 
+    }
+    
+}

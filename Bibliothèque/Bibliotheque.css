@@ -22,22 +22,7 @@ body{background-color: #1A1A1A;}
     border-radius: 12px;
 }
 /****************************navbar and logo***************************/
-@media (min-width:1545px){
-   
-    .head{
-        width: 98vw;
-    }
-    
-    .center,.container,iframe{
-        width: 70vw;
-        
-    
 
-    }
-   iframe{
-    height: 700px;
-   }
-}
 .head{
     
     min-width: 1545px;
@@ -128,7 +113,7 @@ line-height: 24px;
 .main{
     width: 100%;
     background-color: #1A1A1A;
-    height: 2841px;
+    height: 2041px;
     
     
 }
@@ -262,7 +247,33 @@ iframe{
     
             }
 
-
+#c + a{
+    position: absolute;
+    width: 7rem;
+    height: 1.5rem;
+     font-size: 1rem;
+     text-decoration: none;
+     font-family: 'Inter';
+    background-color: #e7b11a;
+    color: BLACK;
+    padding: 0.25rem 1rem ;
+    padding-left: 4rem;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 900px;
+    margin-left: 3rem;
+}
+iframe + a{
+   top:2000px;
+    position: absolute;
+    
+    margin-left: -5vw;
+    border-radius: 10px;
+    
+    border: 3px solid  #e7b11a;
+    
+}
 
 
 
@@ -318,4 +329,33 @@ footer{
 }
 #sub li li a{
     color: rgba(255, 255, 255, 0.521);
+}
+@media (min-width:1545px){
+   
+    .head,footer{
+        width: 100vw;
+    }
+    .black-shadow2{
+        left:67vw;
+    }
+    .center,.white-shadow,.container,iframe{
+        width: 70vw;
+       
+    
+
+    }
+    
+    .main,.container{
+        height: 150vh;
+    }
+   
+   iframe{
+
+    height: 700px;
+   }
+}
+@media (min-width:2138px){
+     footer{
+        top:200vh;
+    }
 }

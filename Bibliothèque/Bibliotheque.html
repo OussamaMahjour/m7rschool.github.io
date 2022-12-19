@@ -14,11 +14,11 @@
              <nav>
                 <ul>
                     <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="About/About.html">À Propos</a></li>
-                    <li><a href="Bibliothèque/Bibliotheque.html">Bibliothèque</a></li>
-                    <li><a href="Mystery-room/Mystery-room.html">Mystery room</a></li>
-                    <li><a href="Historique/Historique.html">Historique</a></li>
-                    <li id="connexion"><a id="a-con" href="Connexion/Connexion.html">Connexion</a></li>
+                    <li><a href="../About/About.html">À Propos</a></li>
+                    <li><a href="Bibliotheque.html">Bibliothèque</a></li>
+                    <li><a href="../Mystery-room/Mystery-room.html">Mystery room</a></li>
+                    <li><a href="../Historique/Historique.html">Historique</a></li>
+                    <li id="connexion"><a id="a-con" href="../Connexion/Connexion.html">Connexion</a></li>
 
                 </ul>
              </nav>
@@ -46,9 +46,10 @@
                 <div class="algorithme" onclick="hna('cours/algo.pdf')"><img src="../images/algo.jpg"><br><div><h1>Algorithmique</h1></div></div>
                 <div class="linux" onclick="hna('cours/SE.pdf')"><img src="../images/linux.jpg"><br><div><h1>Linux</h1></div></div>
                 
-            </div></div>
+            </div>
+        <a id="ret" href="../index.html">retourne</a></div>
             
-            <footer>
+            <footer id="foo">
         
                 <ul id="sub">
                  <li>CONTACTEZ-NOUS
@@ -70,8 +71,13 @@
                  <li><a href="Historique/Historique.html">Historique</a></li>
                 </ul>
               </footer>
-          <script src="bib.js">
-
+          <script >
+function hna(a){
+    document.getElementById('c').innerHTML = '  <iframe id="ifra" src="'+a+'" ></iframe> <h1>hehehe</h1> '
+    document.getElementById("ret").href = "Bibliotheque.html";
+    document.getElementById("foo").style.top = "150vh";
+    document.getElementById('c').style.height = "140vh"
+}
           </script>     
     </body>            
 </html>

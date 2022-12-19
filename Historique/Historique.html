@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Bibliothèque/Bibliotheque.css">
+        
+        <title>M7R</title> 
+      <style>
+        .center{
+            background:url(../images/mr-cup-fabien-barral-Fo5dTm6ID1Y-unsplash.jpg);
+            background-size: cover;
+        }
+        .head{
+            background: url(../images/wallpaperflare.com_wallpaper\ \(4\).jpg);
+        }
+        .logo{
+            color: black;
+        }
+        
+      </style>
+     </head>
+
+    <body>
+
+        <div class="head">
+             <h1 class="logo"><b>M7R</b>|school </h1>
+             <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../About/About.html">À Propos</a></li>
+                    <li><a href="../Bibliothèque/Bibliotheque.html">Bibliothèque</a></li>
+                    <li><a href="../Mystery-room/Mystery-room.html">Mystery room</a></li>
+                    <li><a href="Historique.html">Historique</a></li>
+                    <li id="connexion"><a id="a-con" href="Connexion/Connexion.html">Connexion</a></li>
+
+                </ul>
+             </nav>
+        </div>
+        
+            <div class="main">
+                <div class="center"><h1>Historique</h1></div>
+                <div class="white-shadow"></div> 
+            <div class="black-shadow1"></div>
+            <div class="black-shadow2"></div>
+            <div class="container" id="c">
+               <div  class="algebre" onclick="hna('https://fr.wikipedia.org/wiki/Albert_Einstein')"><img  src="../images//Albert-Einstein.jpg"><br><div><h1>Albert Einstein</h1></div></div>
+                <div class="analyse" onclick="hna('https://fr.wikipedia.org/wiki/Joseph_John_Thomson')"><img src="../images/JJ-Thompson.jpg"><br><div><h1>J.J Thomson</h1></div></div>
+                <div class="statistique" onclick="hna('https://fr.wikipedia.org/wiki/Ernest_Rutherford')"><img src="../images/Rutherford.jpg"><br><div><h1>Ernest Rutherford</h1></div></div>
+                <div class="probabilite" onclick="hna('https://fr.wikipedia.org/wiki/John_Dalton')"><img src="../images/John-Dalton.jpg"><br><div><h1>John Dalton</h1></div></div>
+                <div class="Mecanique" onclick="hna('https://fr.wikipedia.org/wiki/James_Chadwick')"><img src="../images/James-Chadwick.jpg"><br><div><h1>James Chadwick</h1></div></div>
+                <div class="thermodynamique" onclick="hna('https://fr.wikipedia.org/wiki/Isaac_Newton')"><img src="../images/Issac-Newton.jpg"><br><div><h1>Isaac Newton</h1></div></div><br>
+                <div class="electrostatique" onclick="hna('https://fr.wikipedia.org/wiki/Charles-Augustin_Coulomb')"><img src="../images/Charles-Augustin-de-Coulomb.jpg"><br><div><h1>Charles-Augustin de Coulomb</h1></div></div>
+                <div class="optique" onclick="hna('https://fr.wikipedia.org/wiki/Georg_Ohm')"><img src="../images/Georg-Simon-Ohm.jpg"><br><div><h1>Georg Simon Ohm</h1></div></div>
+                <div class="C" onclick="hna('https://fr.wikipedia.org/wiki/Aristote')"><img src="../images/download.jfif"><br><div><h1>Aristote</h1></div></div>
+                 <div class="Html" onclick="hna('https://fr.wikipedia.org/wiki/Michael_Faraday')"><img src="../images/Michael-Faraday-1.jpg"><br><div><h1>Michael Faraday</h1></div></div>
+                <div class="css" onclick="hna('https://fr.wikipedia.org/wiki/Thomas_Edison')"><img src="../images/Thomas-Edison.jpg"><br><div><h1>Thomas Edison</h1></div></div>
+               
+                
+            </div>
+        <a id="ret" href="../index.html">retourne</a></div>
+            
+            <footer>
+        
+                <ul id="sub">
+                 <li>CONTACTEZ-NOUS
+                     <ul >
+                         <li>email : <a style="color: rgba(78, 78, 250, 0.568);" href="mailto:mahjouroussama@gmail.com">mahjouroussama@gmail.com</a></li>
+                         <li>Tel : + 212 (0) 6 12 00 02 91</li>
+                     </ul>
+                 </li>
+                 <li><a  href="Bibliothèque/Bibliotheque.html">Bibliothèque</a>
+                     <ul>
+                         <li><a href="#">Math</a></li>
+                         <li><a href="#">Physique</a></li>
+                         <li><a href="#">Informatique</a></li>
+
+                     </ul>
+                 </li>
+                 <li><a href="About/About.html">À Propos</a></li>
+                 <li><a href="Mystery-room/Mystery-room.html">Mystery room</a></li>
+                 <li><a href="Historique/Historique.html">Historique</a></li>
+                </ul>
+              </footer>
+          <script >
+function hna(a){
+    document.getElementById('c').innerHTML = '  <iframe id="ifra" src="'+a+'" ></iframe>  '
+    document.getElementById("ret").href = "Historique.html";
+    document.getElementById("foo").style.top = "150vh";
+    document.getElementById('c').style.height = "140vh"
+  
+}
+          </script>     
+    </body>            
+</html>
