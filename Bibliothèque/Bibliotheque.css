@@ -4,7 +4,7 @@
 *{
     padding: 0;
     margin: 0;
-        
+    
 }
 
 html{
@@ -71,11 +71,15 @@ nav ul li{
     margin:0rem  1.5rem;
     padding: 0.15rem;
     padding:0.5%;
-    
+    transition: 0.3s ease;
 }
 nav ul li:hover{
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: #e7b11a;
+    
+}
+nav ul li:hover a{
+    color:black;
 }
 #connexion{
     position: absolute;
@@ -101,6 +105,7 @@ transition: 0.3s ease;
     color: white;
 }
 nav ul a{
+    transition: 0.3s ease;
     color: white;
     text-decoration: none;
     font-family: 'Inter';
@@ -117,6 +122,12 @@ line-height: 24px;
     
     
 }
+.active,.active a{
+    border-radius: 3px;
+    background-color: #e7b11a;
+    color:black;
+}
+
 .center{
     
     z-index: 3;

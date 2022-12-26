@@ -65,11 +65,15 @@ nav ul li{
     margin:0rem  1.5rem;
     padding: 0.15rem;
     padding:0.5%;
-    
+    transition: 0.3s ease;
 }
 nav ul li:hover{
     border-radius: 3px;
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: #e7b11a;
+    
+}
+nav ul li:hover a{
+    color:black;
 }
 #connexion{
     position: absolute;
@@ -91,6 +95,11 @@ transition: 0.3s ease;
     cursor: pointer;
     
 }
+.active,.active a{
+    border-radius: 3px;
+    background-color: #e7b11a;
+    color:black;
+}
 #connexion:hover #a-con{
     color: white;
 }
@@ -102,6 +111,7 @@ font-style: normal;
 font-weight: 400;
 font-size:1.25rem;
 line-height: 24px;
+transition: 0.3s ease;
 }
 /*********************image centrale***********************/
 .main{
